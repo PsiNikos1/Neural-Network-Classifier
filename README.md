@@ -1,1 +1,2 @@
 Hard-coded a simple neural network for a classic 4 category classifying problem. I also hard-coded the forward pass,gradient descent & back propagation algorithms. More specific, i created 8000 random points (x1,x2) in a 2D space between [-1, 1]. Half of them are for testing and half for training. Then, i split them into categories and add noise to the trainning set.( Every point has 0.1 probability to change category)
+After training my neural network, i use gradient descent with mini-batches for 700 epochs.
